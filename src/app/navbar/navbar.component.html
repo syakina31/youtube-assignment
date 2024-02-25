@@ -1,0 +1,32 @@
+    <nav class="navbar navbar-expand-lg bg-light" data-bs-theme="light">
+          <div class="container-fluid">
+            <!--Youtube Logo on top left side-->
+            <img src="assets\yt.png" alt="Youtube" style="width:90px;height:90px">
+            <a class="navbar-brand" [routerLink]="['/home']"routerLinkActive="router-link-active">Youtube</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor03" aria-controls="navbarColor03" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarColor03">
+              <ul class="navbar-nav me-auto">
+                <li class="nav-item">
+                  <!--Home page menu-->
+                  <a class="nav-link active" [routerLink]="['/home']"routerLinkActive="router-link-active">Home
+            <span class="visually-hidden">(current)</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <!--About us page menu-->
+          <a class="nav-link active" [routerLink]="['/aboutus']"routerLinkActive="router-link-active">About Us
+            </a>
+        </li>
+        <li class="nav-item">
+          <!--Search place page menu-->
+          <a class="nav-link active" [routerLink]="['/searchplace']"routerLinkActive="router-link-active">Search
+            </a>
+        </li>
+        </ul>
+        </div>
+        </div>
+        </nav>
+
+
